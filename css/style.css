@@ -11,8 +11,12 @@ body{
     width: 1140px;
     margin: 0 auto;
 }
-h3,h2{
+h3,h2,p, h5{
     color: white;
+}
+.active{
+
+    background-color: var(--btnCOlor);
 }
 header{
     width: 100%;
@@ -69,4 +73,164 @@ main{
     width: 500px;
     height: 200px;
     margin: 0 auto;
+    background-image: url("../image/1.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+.service{
+    width: 100%;
+    
+}
+.cardBloc{
+    display: flex;
+    justify-content:space-around ;
+}
+.cardBloc img{
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+}
+.imgage{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.desi{
+    width: 400px;
+    height: 200px;
+    border-radius: 20px; 
+    margin-right: 20px;
+}
+.textInfo {
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    background-color: rgba(112, 241, 98, 0.17);
+}
+.btn{
+   width: 15rem; 
+   height: 2rem;
+   background-color: var(--btnCOlor);
+   border: none;
+   font-size:1.2rem ;
+}
+.titleSeance{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    
+}
+.seance{
+    width: 100%;
+    margin: 0 auto;
+}
+.blocQu{
+    width: 1000px;
+    height:0 auto;
+    margin: 0 auto;
+
+}
+.impo{
+    color: var(--btnCOlor);
+    font-size:1.5rem ;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.inputFields{
+    display:inline-block;
+}
+
+.inputFields label{
+    display: block;
+    width: 20rem;
+    font-size: 1.2rem;
+    color: white;
+}
+.inputFields input{
+    width: 15rem;
+    height: 2rem;
+    border: 1px dashed var(--btnCOlor);
+    margin-bottom: 15px;
+}
+.apropos{
+    margin-top: 20px;
+    margin-bottom:20px ;
+    width: 100%;
+}
+.blocApro{
+    position: relative;
+    width: 600px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: rgba(112, 241, 98, 0.17);
+    padding: 20px;
+}
+.abso{
+    position: absolute;
+    width: 15rem;
+    height: 2rem;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -20px;
+}
+.pp{
+    margin-top: 20px;
+}
+.contact{
+    width: 500px;
+    margin: 0 auto;
+}
+.teteam{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.fields{
+    display: flex;
+}
+form{
+    display: block;
+}
+.fields input{
+    width: 15rem;
+    height: 2rem;
+    border: 1px dashed var(--btnCOlor);
+    margin-right: 20px;
+}
+.fieldsT{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.fieldsT button{
+    width: 15rem;
+    height: 2rem;
+    background-color: var(--btnCOlor);
+    border: none;
+    color: white;
+}
+textarea{
+    border: 1px dashed var(--btnCOlor);
+}
+footer{
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(35, 191, 64, 0.34);
 }
